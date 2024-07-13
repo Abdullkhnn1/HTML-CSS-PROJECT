@@ -1,0 +1,405 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+body{
+    background-color: rgb(244, 233, 233);
+}
+ol{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    padding: 0px;
+}
+.container{
+    width:1324px;
+    height: 65px;
+    padding: 0px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#logo > img{
+ 
+   width: auto;
+   height: 60px;
+    
+}
+#navbar{
+   width: 662px;
+    height: 60px;
+  padding: 0px;
+}
+nav ol li{
+    float: left;
+    margin: 0px auto;
+    list-style: none;
+    padding: 17px;
+   
+}
+nav ol li a{
+    color: black;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.active{
+    background: linear-gradient(to top,#b65cfe,#515de2);
+}
+#navbar ol :hover{
+    background: linear-gradient(to top,#b65cfe,#515de2);
+}
+.banner{
+    width: 100%;
+    height: 960px;
+    background-image: url(images/banneer.png);
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+    
+}
+.banner .container{
+    width:1324px;
+    height: 960px;
+    margin: 0px auto;
+   
+    position: relative;
+}
+#boxes{
+    display: flex;
+    width: 1324px;
+    bottom: 10%;
+   
+    flex-direction: row;
+   position: absolute; 
+}
+#boxes>div>h1{
+    font-size: 35px;
+    text-align: left;
+}
+#boxes>div>p{
+    font-size: 20px;
+    padding: 15px;
+}
+#boxes > div:nth-child(1){
+    width: 280px;
+    height: 350px; 
+    margin:0px auto;
+    text-align:justify;
+  
+    background: linear-gradient(to top,#ffb917,#ff8100);    
+}
+#boxes > div:nth-child(2){
+    width: 280px;
+    height: 350px; 
+    margin:0px auto;
+    text-align:justify;
+    background: linear-gradient(to top,#b65cfe,#515de2);  
+}
+#boxes > div:nth-child(3){
+    width: 280px;
+    height: 350px; 
+    margin:0px auto;
+    text-align:justify;
+    background:linear-gradient(TO TOP,#ff2f52,#ff2088);
+ 
+
+}
+#boxes > div:nth-child(4){
+    width: 280px;
+    height: 350px; 
+    margin:0px auto;
+    text-align:justify;
+    background:linear-gradient(to top,#fc15e6,#c91ce2);
+       
+}
+.body{
+    width: 100%;
+    height: 500px;
+ 
+}
+.body .container{
+    width: 1324px;
+    height: 500px;
+  
+    margin: 0px auto;
+    display: flex;
+
+}
+.body .container #welcome{
+    width: 562px;
+    margin: auto auto;
+    height: 380px;
+
+}
+#welcome h1{
+  
+ text-align: left;
+    font-size: 45px;
+}
+#welcome >p{
+    font-size:27px ;
+}
+
+.body .container #welcome2>img{
+    width: 652px;
+ height: 500px;
+ opacity: 1;
+}
+.body .container #welcome2>img:hover{
+    width: 652px;
+ height: 500px;
+ opacity: 0.5;
+filter: hue-rotate(75deg);
+}
+button{
+    width: 200px;
+    height: 70px;
+    display: inline-block;
+    background: linear-gradient(to left,#ff8605,#ff3949);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+button:hover{
+    background: linear-gradient(to top,#b65cfe,#515de2);
+}
+.body2{
+    width: 100%;
+    height: 520px;
+  
+  
+}
+.body2 .container{
+    width: 1324px;
+    height: 520px; 
+    margin: 0px auto;
+    display: flex;
+
+}  
+.body2 .container #lessons>img{
+   width:662px;
+   height: 520px;
+}
+.body2 .container #lessons2{
+    width: 562px;
+    /* margin: auto auto; */
+    height: 400px;
+   
+}
+#lessons2 h1{
+    text-align: left;
+    font-size: 45px;
+}
+#lessons2 >p{
+    font-size:27px ;
+}
+.background{
+    width: 100%;
+    height: 550px;
+  
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.background .container{
+    width: 1324px;
+    height: 550px; 
+    margin: 0px auto;
+
+
+}  
+#swimming{
+    width: 612px;
+ height: 500px;
+
+ 
+    background:linear-gradient(TO TOP,#ff2f52,#ff2088);
+    color: white;
+ padding: 25px;
+}
+#swimming h1{
+    margin-top: 0%;
+    font-size: 45px;
+}
+#swimming >p{
+    font-size:27px ;
+}
+.background .container #swimming #no{
+    background: transparent;
+    color: black;
+    background-color: white;
+    /* width: 200px; */
+}
+.event{
+    width: 100%;
+    height: 550px;
+ 
+   
+}
+.event .container{
+    width: 1324px;
+    height: 550px; 
+    margin: 0px auto;
+
+
+    display: flex;
+  
+}
+.event .container #left{
+    width: 561px;
+   padding: 50px;
+    height: 450px;
+    background: linear-gradient(to top,#ffb917,#ff8100);
+    color: white;
+    
+
+}
+#left h1{
+font-weight: bold;
+    font-size: 45px;
+}
+#left >p{
+    font-size:26px ;
+}
+.event .container #right{
+    width: 663px;
+    height: 550px;
+}
+.event .container #right img{
+    width: 100%;
+    height: 550px;
+  
+    /* border: 2px solid green; */
+    /* object-fit: cover; */   
+}
+.cart{
+    width: 100%;
+    height: 580px;
+
+}
+ .cart .container{
+    width: 1300px;
+    height: 580px; 
+    margin: 0px auto;
+    display: flex;
+    /* padding: 20px; */
+} 
+.cart .container .cart-id{
+    width: 300px;
+    height: 580px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 10px;
+}
+.cart .container .cart-id>div{
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.cart .container .cart-id img{
+    width: 200px;
+    border-radius: 50%;
+  
+    transition:transform 0.5s ease;
+}
+.cart .container .cart-id img:hover{
+    transform: scale(1.5) ;
+    transition: 0.25s;
+ 
+}
+.cart .container .cart-id p{
+    width: 200px;
+    text-align: justify;
+    margin: 0px auto;
+    font-size: 20px; 
+   
+}
+.cart .container .cart-id h1{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+.location{
+    width: 100%;
+    height: 550px;
+    /* border: 2px solid black; */
+}
+.location .container{
+    width: 1324px;
+    height: 550px; 
+    margin: 0px auto;
+
+
+    display: flex;
+    padding: 10px;
+}
+.location .container #left-local{
+    width:  662px;
+    margin: 10px;
+    height: 550px;
+
+ 
+    background: linear-gradient(to top,#0097df,#007bc6);
+    color: white;
+    
+
+}
+#left-local h1{
+    
+    margin-top: 10%;
+    font-size: 45px;
+    padding-left: 60px;
+
+    
+}
+#left-local >p{
+    font-size:25px ;
+    padding-left: 60px;
+}
+.location .container #right-local {
+    width:  662px;
+    margin: 10px;
+    height: 550px;
+    border: 2px solid green;
+ 
+}
+#right-local iframe{
+    width: 662px;
+    height: 550px;
+}
+#left-local >i{
+    width: 10px;
+    background-color: #ff8605;
+}
+.footer{
+    width: 100%;
+    height: 180px; 
+}
+.footer .container{
+    width: 1324px;
+    height: 180px; 
+  
+
+
+}
+.footer .container h1{
+    width: 100%;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+
+
+}
